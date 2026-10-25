@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "nailong-meme-pack",
+  "name": "奶龙表情包",
+  "version": "1.0.0",
+  "description": "145 张奶龙表情（83 动图 + 62 静图），适合日常调侃、卖萌、搞笑互动场景。",
+  "author": "JL966 (打包) / GeorgeNaNN (素材源)",
+  "license": "SEE README",
+  "tags": ["nailong", "cute", "funny"],
+  "icon": "previews/cover.png",
+  "previews": ["previews/cover.png"],
+  "source": {"type": "github", "repo": "JL966/astrbot-meme-pack-nailong", "ref": "main", "subpath": "."},
+  "categories": {
+    "nailong": {"description": "奶龙表情：日常闲聊、调侃吐槽、卖萌搞怪通用款，情绪适配范围广。"}
+  }
+}
