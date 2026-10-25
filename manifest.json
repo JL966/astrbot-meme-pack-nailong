@@ -2,15 +2,17 @@
   "schema_version": 1,
   "id": "nailong-meme-pack",
   "name": "奶龙表情包",
-  "version": "1.0.0",
-  "description": "145 张奶龙表情（83 动图 + 62 静图），适合日常调侃、卖萌、搞笑互动场景。",
-  "author": "JL966 (打包) / GeorgeNaNN (素材源)",
+  "version": "1.1.0",
+  "description": "178 张表情：奶龙 145 张 + AI人工智能梗图 11 张 + Mur猫 22 张，适合日常调侃、卖萌、搞怪互动。",
+  "author": "JL966 (打包) / GeorgeNaNN, zhaoolee (素材源)",
   "license": "SEE README",
-  "tags": ["nailong", "cute", "funny"],
+  "tags": ["nailong", "cute", "funny", "ai", "cat"],
   "icon": "previews/cover.png",
   "previews": ["previews/cover.png"],
   "source": {"type": "github", "repo": "JL966/astrbot-meme-pack-nailong", "ref": "main", "subpath": "."},
   "categories": {
-    "nailong": {"description": "奶龙表情：日常闲聊、调侃吐槽、卖萌搞怪通用款，情绪适配范围广。"}
+    "nailong": {"description": "奶龙表情：日常闲聊、调侃吐槽、卖萌搞怪通用款，情绪适配范围广。"},
+    "ai": {"description": "AI人工智能梗图：聊天涉及AI、训练、显卡、程序员话题时的吐槽专用。"},
+    "murcat": {"description": "Mur猫（奇妙猫）表情：装傻、犯贱、奇怪的知识增加了等搞怪场景。"}
   }
 }
