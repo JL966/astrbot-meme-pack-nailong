@@ -2,17 +2,82 @@
   "schema_version": 1,
   "id": "nailong-meme-pack",
   "name": "奶龙表情包",
-  "version": "1.1.0",
-  "description": "178 张表情：奶龙 145 张 + AI人工智能梗图 11 张 + Mur猫 22 张，适合日常调侃、卖萌、搞怪互动。",
+  "version": "2.0.0",
+  "description": "178 张表情（奶龙145 + AI梗图11 + Mur猫22），已按 19 类聊天语义分类整理（识图分类），适合情绪化斗图。",
   "author": "JL966 (打包) / GeorgeNaNN, zhaoolee (素材源)",
   "license": "SEE README",
-  "tags": ["nailong", "cute", "funny", "ai", "cat"],
+  "tags": [
+    "nailong",
+    "cute",
+    "funny",
+    "ai",
+    "cat",
+    "semantic"
+  ],
   "icon": "previews/cover.png",
-  "previews": ["previews/cover.png"],
-  "source": {"type": "github", "repo": "JL966/astrbot-meme-pack-nailong", "ref": "main", "subpath": "."},
+  "previews": [
+    "previews/cover.png"
+  ],
+  "source": {
+    "type": "github",
+    "repo": "JL966/astrbot-meme-pack-nailong",
+    "ref": "main",
+    "subpath": "."
+  },
   "categories": {
-    "nailong": {"description": "奶龙表情：日常闲聊、调侃吐槽、卖萌搞怪通用款，情绪适配范围广。"},
-    "ai": {"description": "AI人工智能梗图：聊天涉及AI、训练、显卡、程序员话题时的吐槽专用。"},
-    "murcat": {"description": "Mur猫（奇妙猫）表情：装傻、犯贱、奇怪的知识增加了等搞怪场景。"}
+    "angry": {
+      "description": "当对话包含抱怨、批评或激烈反对时使用（如吐槽/观点反驳）"
+    },
+    "baka": {
+      "description": "轻微责备或吐槽（低级错误/可爱型抱怨）"
+    },
+    "color": {
+      "description": "社交场景中的暧昧表达（调情）使用频率≤1次/对话"
+    },
+    "confused": {
+      "description": "请求澄清或表达理解障碍时（概念模糊/逻辑矛盾）"
+    },
+    "cpu": {
+      "description": "技术讨论中表示思维卡顿（复杂问题/需要加载时间）"
+    },
+    "fool": {
+      "description": "自嘲或缓和气氛的幽默场景（小失误/无伤大雅的玩笑）"
+    },
+    "happy": {
+      "description": "用于成功确认、积极反馈或庆祝场景（问题解决/获得成就）"
+    },
+    "like": {
+      "description": "表达对事物或观点的喜爱（美食/艺术/优秀方案）"
+    },
+    "meow": {
+      "description": "卖萌或萌系互动场景（宠物话题/安抚情绪）"
+    },
+    "morning": {
+      "description": "早安问候专用"
+    },
+    "reply": {
+      "description": "等待用户反馈时（提问后/需要确认）"
+    },
+    "sad": {
+      "description": "表达伤心、歉意、遗憾或安慰场景（遇到挫折/传达坏消息）"
+    },
+    "see": {
+      "description": "表示偷瞄或持续关注（围观/观察变化）"
+    },
+    "shy": {
+      "description": "涉及隐私话题或收到赞美时（个人故事/外貌评价）"
+    },
+    "sigh": {
+      "description": "表达无奈、疲惫或\"麻了\"的吐槽场景"
+    },
+    "sleep": {
+      "description": "困倦、准备休息或晚安问候场景"
+    },
+    "surprised": {
+      "description": "表达震惊、出乎意料（\"我超\"时刻）"
+    },
+    "work": {
+      "description": "表示正在忙于学习/干活/搬砖的场景"
+    }
   }
 }
